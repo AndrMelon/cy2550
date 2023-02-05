@@ -75,7 +75,11 @@ The password is JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
 Key: JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
 
 Level 12:
-bandit12@bandit:/tmp/andrewe$ mv data2.bzip data2.bz2
+bandit12@bandit:/tmp/andrewe$ xxd -r data.txt > data2
+bandit12@bandit:/tmp/andrewe$ file data2
+bandit12@bandit:/tmp/andrewe$ mv data2 data2.gz
+bandit12@bandit:/tmp/andrewe$ gunzip data2.gz 
+bandit12@bandit:/tmp/andrewe$ mv data2 data2.bz2
 bandit12@bandit:/tmp/andrewe$ bunzip2 data2.bz2 
 bandit12@bandit:/tmp/andrewe$ ls
 data2  data.txt  dehex
