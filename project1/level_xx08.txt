@@ -1,0 +1,5 @@
+Level 8:
+bandit8@bandit:~$ cd
+bandit8@bandit:~$ cat data.txt | sort | uniq --unique
+Key: EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+

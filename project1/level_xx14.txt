@@ -1,0 +1,13 @@
+Level 14:
+bandit14@bandit:~$ telnet 127.0.0.1 30000
+Trying 127.0.0.1...
+Connected to 127.0.0.1.
+Escape character is '^]'.
+fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
+Correct!
+jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
+
+Connection closed by foreign host.
+Key: jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
+
+

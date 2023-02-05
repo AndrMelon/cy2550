@@ -1,0 +1,5 @@
+Level 11:
+bandit11@bandit:~$ cat data.txt | tr ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm
+The password is JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+Key: JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+

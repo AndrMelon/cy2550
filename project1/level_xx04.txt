@@ -1,0 +1,5 @@
+Level 4:
+bandit4@bandit:~/inhere$ file ./*
+bandit4@bandit:~/inhere$ cat ./-file07
+Key: lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR 
+

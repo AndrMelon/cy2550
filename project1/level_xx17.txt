@@ -1,0 +1,10 @@
+Level 17:
+
+bandit17@bandit:~$ diff passwords.old passwords.new
+42c42
+< 810zq8IK64u5A9Lb2ibdTGBtlcSZsoe8
+---
+> hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+
+Key: hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+
