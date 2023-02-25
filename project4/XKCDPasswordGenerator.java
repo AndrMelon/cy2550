@@ -133,7 +133,13 @@ public class XKCDPasswordGenerator {
         }
         Collections.shuffle(output);
 
-        System.out.println(output);
+        String outputString = "";
+
+        for (String s : output) {
+            outputString = outputString + s;
+        }
+
+        System.out.println(outputString);
 
         file.close();
     }
