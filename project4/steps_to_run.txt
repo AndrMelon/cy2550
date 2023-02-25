@@ -1,0 +1,3 @@
+# Instructions to Run:
+# 1. make
+# 2. ./xkcdpwgen <args-flags-you-desire>
