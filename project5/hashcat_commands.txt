@@ -1,0 +1,41 @@
+#show passwords cracked 
+
+hashcat -m 500 --show yourhccapxfilename (will show you any cracked passwords)
+
+hashcat -m 500 --left yourhccapxfilename (will show you any un-cracked passwords)
+
+commands run so far: (with -D 2 -d 5 appened at the end as well)
+
+hashcat -m 500 --username -O -a 0 hashes.txt words.txt
+
+hashcat -m 500 --username -O -a 0 edmonston.a@husky.neu.edu.shadow words.txt words.txt -r best64.rule -D 2 -d 5
+//The second words.txt may be redundant in above command
+
+hashcat -m 500 --username -O -a 6 -i edmonston.a@husky.neu.edu.shadow words.txt '?d?d?d' -D 2 -d 5
+
+hashcat -m 500 --username -O -a 6 -i edmonston.a@husky.neu.edu.shadow words.txt '?s?s?s' -D 2 -d 5
+
+commands i want to run:
+
+hashcat -m 500 --username -O -a 6  edmonston.a@husky.neu.edu.shadow words.txt words.txt -D 2 -d 5
+
+hashcat -m 500 --username -O -a 0 edmonston.a@husky.neu.edu.shadow rockyou.txt -D 2 -d 5
+
+What ive tested in text terms:
+
+wordlist
+
+rockyou.txt
+
+wordlist -r best64.rule
+ 
+wordlist -i ?d?d?d //only halfway done with the last ?d
+wordlist -i ?s?s
+
+?a?a wordlist -i
+
+what i want to test:
+brute force up to 5 characters //so far have done up to four
+wordlist with character substitions (ie. letter l for 1 or 3 for e)
+another password set maybe
+wordlist -i ?s?d?d
