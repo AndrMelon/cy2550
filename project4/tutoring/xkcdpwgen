@@ -1,0 +1,50 @@
+#!/usr/bin/env python3
+
+# 1. figure out how to open file and use random words inside of it
+# 2. figure out how to capture input flags like "-w 12" and use those value in out program
+
+import sys
+import argparse
+
+help_string = """usage: xkcdpwgen [-h] [-w WORDS] [-c CAPS] [-n NUMBERS] [-s SYMBOLS]
+                
+Generate a secure, memorable password using the XKCD method
+                
+optional arguments:
+    -h, --help            show this help message and exit
+    -w WORDS, --words WORDS
+                          include WORDS words in the password (default=4)
+    -c CAPS, --caps CAPS  capitalize the first letter of CAPS random words
+                          (default=0)
+    -n NUMBERS, --numbers NUMBERS
+                          insert NUMBERS random numbers in the password
+                          (default=0)
+    -s SYMBOLS, --symbols SYMBOLS
+                          insert SYMBOLS random symbols in the password
+                          (default=0)
+                          """
+
+# create new parser for reading input flags
+parser = argparse.ArgumentParser(
+    description="flags for xkcd password generation", add_help=False)
+
+parser.add_argument("-h", "--help", action='store_true',
+                    help='help flag')
+
+# add new argument to parser, for number of words in password
+# parser.add_argument("-w", "--words", metavar='words', type=int,
+#                    help='number of words requested in password', default=4)
+
+args = parser.parse_args()
+
+help = args.help
+
+if (help):
+    print(help_string)
+    exit()
+
+print(help)
+
+# print(sys.argv)
+
+# print(words)

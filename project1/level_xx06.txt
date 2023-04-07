@@ -1,7 +1,0 @@
-Level 6:
-bandit6@bandit:~$ cd ../..
-bandit6@bandit:/$ find . -group bandit6 -user bandit7 -size 33c 2>/dev/null
-./var/lib/dpkg/info/bandit7.password
-bandit6@bandit:/$ cat ./var/lib/dpkg/info/bandit7.password
-Key: z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
-

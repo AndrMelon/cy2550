@@ -1,6 +1,0 @@
-Level 13:
-bandit13@bandit:~$ ssh bandit14@bandit.labs.overthewire.org -p 2220 -i sshkey.private 
-bandit14@bandit:~$ cat /etc/bandit_pass/bandit14
-fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
-Key: fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
-

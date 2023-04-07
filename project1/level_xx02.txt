@@ -1,4 +1,0 @@
-Level 2:
-bandit2@bandit:~$ cat spaces\ in\ this\ filename 
-Key: aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
-
